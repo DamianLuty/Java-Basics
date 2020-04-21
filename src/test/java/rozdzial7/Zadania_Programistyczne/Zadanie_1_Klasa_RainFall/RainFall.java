@@ -3,8 +3,8 @@ package rozdzial7.Zadania_Programistyczne.Zadanie_1_Klasa_RainFall;
 public class RainFall {
 
     /**
-     Ta klasa przechowuje w tablicy wartosci opadow deszcze w danym roku i udostepnia metody do
-     obliczania sumy oraz średniej wartości opadów jak rownież miesiące z najwyzszym i najnizszym poziomem opadow.
+     This class includes rainfall level for each month stored in rainArray table and shares methods
+     to calculate sum and average rainfall levels and also months with highest and lowest level
      */
 
     private double[] rainArray;
@@ -20,8 +20,8 @@ public class RainFall {
     }
 
     /**
-     * Metoda getSumRainFall
-     * @return Suma elementow przechowywanych w tablicy rainArray.
+     * getSumRainFall method
+     * @return sum of elements stored in rainArray.
      */
 
     public double getSumRainFall() {
@@ -35,8 +35,8 @@ public class RainFall {
     }
 
     /**
-     * Metoda getAverage
-     * @return Srednia wartosc wszystkich elementow tablicy rainArray.
+     * getAverage method
+     * @return average value of stored elements in rainArray.
      */
 
     public double getAverage() {
@@ -45,8 +45,8 @@ public class RainFall {
     }
 
     /**
-     * Metoda getHighest
-     * @return Miesiac z najwieksza wartoscia przechowaywana w tablicy rainArray.
+     * getHighest method
+     * @return month where rainfall level was the highest from elements stored in rainArray.
      */
 
     public double getHighest() {
@@ -65,8 +65,8 @@ public class RainFall {
     }
 
     /**
-     * Metoda getLowest
-     * @return Miesiac z najmniejsza wartoscia przechowaywana w tablicy rainArray.
+     * getLowest method
+     * @return month where rainfall level was the lowest one from elements stored in rainArray.
      */
 
     public double getLowest() {
