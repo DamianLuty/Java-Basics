@@ -13,6 +13,7 @@ public class BankAccount {
         balance = 0.0;
     }
 
+    // This constructor creates a copy of original object
     public BankAccount(BankAccount account){
         balance = account.balance;
     }
