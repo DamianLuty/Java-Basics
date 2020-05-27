@@ -12,6 +12,12 @@ public class RetailItem {
         price = pr;
     }
 
+    public RetailItem(RetailItem retail) {
+        description = retail.description;
+        unitsOnHand = retail.unitsOnHand;
+        price = retail.price;
+    }
+
     public void setDescription(String desc) {
         description = desc;
     }
